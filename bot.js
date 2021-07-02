@@ -60,6 +60,10 @@ client.on('message', msg => {
         msg.reply("<#696414795477418004>")
     }
 
+    if (msg.content === `${BOT_PREFIX}arcanesymbol`) {
+        msg.reply("<#860467142541836300>")
+    }
+
     if (msg.content === `${BOT_PREFIX}bis`) {
         msg.reply("<#717241606604062790>")
     }
