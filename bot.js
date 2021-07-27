@@ -92,6 +92,10 @@ client.on('message', msg => {
         msg.reply("<#718368711828045825>")
     }
 
+    if (msg.content === `${BOT_PREFIX}joblist`) {
+        msg.reply("<#869534577381761055>")
+    }
+
     if (msg.content === `${BOT_PREFIX}legion`) {
         msg.reply("<#839302625064386580>")
     }
